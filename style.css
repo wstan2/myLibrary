@@ -1,0 +1,86 @@
+body {
+	font-family: monospace;
+	text-align: center;
+	background-color: aquamarine;
+}
+
+h1 {
+}
+
+.book-container {
+	text-align: center;
+	display: inline-block;
+	margin: 10px auto;
+}
+
+.book-container div {
+	text-align: center;
+	margin: 10px;
+	align-content: center;
+	border-radius: 10px;
+	border: 5px solid white;
+	background-color: rgb(185, 203, 253);
+	height: 150px;
+	width: 600px;
+	padding: 10px;
+	line-height: 120px;
+	align-items: center;
+}
+
+.btn-group {
+}
+
+.btn {
+	background-color: white;
+	font-size: 10px;
+	margin: 2px;
+	width: 60px;
+	height: 35px;
+	border-radius: 8px;
+	border-color: white;
+	outline: white;
+}
+.btn-group button {
+	background-color: white;
+	font-size: 10px;
+	margin: 2px;
+	border-radius: 10px;
+	height: 40px;
+	width: 90px;
+	border-color: white;
+	outline: white;
+	text-align: center;
+}
+
+.form-popup {
+	font-family: inherit;
+	display: none;
+	width: 350px;
+	margin: 0 auto;
+	border: 3px solid #f1f1f1;
+	font: sans-serif;
+	text-align: center;
+	background-color: rgb(185, 203, 253);
+}
+
+.form-container {
+	max-width: 300px;
+	padding: 10px;
+	background-color: rgb(185, 203, 253);
+	text-align: center;
+	display: inline-block;
+}
+
+.delBook {
+	position: relative;
+	float: right;
+	color: red;
+	font-size: 2.5em;
+	opacity: 0.4;
+	transform: translate(0px, -53px);
+	cursor: grab;
+}
+
+.delBook:hover {
+	opacity: 1;
+}
